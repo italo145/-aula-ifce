@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário com CSS</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    input,
+    button,
+    label,
+    textarea {
+        padding: 0.5%;
+        display: block;
+        width: 100%;
+    }
+
+    label {
+       font-weight: bold;
+    }
+
+    div {
+        width: 600px;
+        margin: auto;
+    }
+
+input {
+    margin-bottom: 1em;
+    padding: 0;
+}
+
+    button {
+        display: block;
+        background-color: blue;
+    color: aliceblue;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 0.5em;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    }
+
+    input, 
+    button
+    textarea {
+        display: block;
+    }
+
+  
+
+</style>
+<body>
+    <form>
+
+<div>
+    <label>
+<div>Nome:</div>
+<input type="text">
+    </label>
+
+    <label>
+<div>Email:</div>
+<input type="text">
+    </label>
+
+    <label>
+<div>Mensagem:</div>
+<textarea></textarea>
+    </label>
+
+    <button>Enviar</button>
+</div>
+
+    </form>
+</body>
+</html>
