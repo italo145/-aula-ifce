@@ -6,24 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS</title>
 
-    <style>
-
-body {
-background-color: linen;
-}
-
-p {
-    background-color: aqua;
-}
-    </style>
 
 </head>
+<style>
+
+button {
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 0.5em;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.button :hover {
+    background-color: blue;
+}
+</style>
+
 <body>
-    
-    <p>Parágrafo 1</p>
-    <p>Parágrafo 2</p>
-    <p>Parágrafo 3</p>
-   
+
+<button class="btn">Clique aqui</button>
 
 </body>
 </html>
