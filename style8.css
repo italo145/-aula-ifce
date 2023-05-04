@@ -1,0 +1,31 @@
+div.static {
+    position: static;
+    border: 5px solid blue;
+}
+
+div.relative {
+    position: relative;
+    border: 5px solid red;
+    top: 30px;
+}
+
+div.fixed {
+    position: fixed;
+    border-radius: 1.0em;
+    bottom: 10px;
+    right: 10px;
+}
+
+div.fixed img {
+    width: 60px;
+    right: 60px;
+}
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #bbe4bb;
+    border: 2px solid #0eed15;
+  }
